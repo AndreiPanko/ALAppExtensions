@@ -34,7 +34,7 @@ codeunit 51861 "C5 Wizard Integration"
         CRLF[2] := 10;
 
         Instructions := Instructions1Txt + CRLF + Instructions2Txt + CRLF + Instructions3Txt + CRLF + Instructions4Txt;
-        SendTraceTag('00001K5', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), Verbosity::Normal, 'C5 Migration was selected.', DataClassification::SystemMetadata);
+        //SendTraceTag('00001K5', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), Verbosity::Normal, 'C5 Migration was selected.', DataClassification::SystemMetadata);
 
         Handled := true;
     end;
@@ -113,7 +113,7 @@ codeunit 51861 "C5 Wizard Integration"
         if DataMigrationEntity.FindFirst() then
             EntitiesToMigrateMessage += StrSubstNo('C5_ledger_entries: %1; ', DataMigrationEntity."No. of Records");
 
-        SendTraceTag('00001I1', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), Verbosity::Normal, EntitiesToMigrateMessage, DataClassification::SystemMetadata);
+        //SendTraceTag('00001I1', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), Verbosity::Normal, EntitiesToMigrateMessage, DataClassification::SystemMetadata);
     end;
 
     local procedure GetCurrentCodeUnitNumber(): Integer

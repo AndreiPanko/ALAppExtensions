@@ -27,7 +27,7 @@ codeunit 51868 "C5 Data Loader"
         StartTime: DateTime;
     begin
         StartTime := CurrentDateTime();
-        SendTraceTag('00001HZ', C5MigrDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Normal, StagingTablesImportStart, DataClassification::SystemMetadata);
+        //SendTraceTag('00001HZ', C5MigrDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Normal, StagingTablesImportStart, DataClassification::SystemMetadata);
 
         ReadBlobAndExtractZipFile();
 
@@ -86,11 +86,11 @@ codeunit 51868 "C5 Data Loader"
         C5SchemaParameters.Modify();
 
         DurationAsInt := CurrentDateTime() - StartTime;
-        SendTraceTag('00001I0',
-                     C5MigrDashboardMgt.GetC5MigrationTypeTxt(),
-                     Verbosity::Normal,
-                     StrSubstNo(StagingTablesImportFinish, DurationAsInt), 
-                     DataClassification::SystemMetadata);
+        //SendTraceTag('00001I0',
+        //             C5MigrDashboardMgt.GetC5MigrationTypeTxt(),
+        //             Verbosity::Normal,
+        //             StrSubstNo(StagingTablesImportFinish, DurationAsInt), 
+        //             DataClassification::SystemMetadata);
     end;
 
     local procedure LoadVendorRelatedTables()

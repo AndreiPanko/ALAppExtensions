@@ -72,7 +72,7 @@ codeunit 51869 "C5 Unzip"
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001DF', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, EmptyZipFileErr, DataClassification::SystemMetadata);
+        //SendTraceTag('00001DF', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, EmptyZipFileErr, DataClassification::SystemMetadata);
     end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"C5 Unzip", 'OnUnzipFileError', '', false, false)] 
@@ -80,7 +80,7 @@ codeunit 51869 "C5 Unzip"
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001IL', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, GetLastErrorText(), DataClassification::SystemMetadata);
+        //SendTraceTag('00001IL', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, GetLastErrorText(), DataClassification::SystemMetadata);
     end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"C5 Unzip", 'OnZipFileMissing', '', false, false)] 
@@ -88,7 +88,7 @@ codeunit 51869 "C5 Unzip"
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001DD', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, ZipFileMissingErrorTxt, DataClassification::SystemMetadata);
+        //SendTraceTag('00001DD', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, ZipFileMissingErrorTxt, DataClassification::SystemMetadata);
     end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"C5 Unzip", 'OnExtractFolderMissing', '', false, false)] 
@@ -96,7 +96,7 @@ codeunit 51869 "C5 Unzip"
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001DE', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, ZipExtractionErrorTxt, DataClassification::SystemMetadata);
+        //SendTraceTag('00001DE', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, ZipExtractionErrorTxt, DataClassification::SystemMetadata);
     end;
 
 }

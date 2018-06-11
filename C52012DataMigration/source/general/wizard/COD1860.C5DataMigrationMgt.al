@@ -125,7 +125,7 @@ codeunit 51860 "C5 Data Migration Mgt."
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001DC', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, ZipFileMissingErrorTxt, DataClassification::SystemMetadata);
+        //SendTraceTag('00001DC', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, ZipFileMissingErrorTxt, DataClassification::SystemMetadata);
     end;
 }
 

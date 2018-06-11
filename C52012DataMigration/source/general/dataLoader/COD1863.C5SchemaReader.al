@@ -180,7 +180,7 @@ codeunit 51863 "C5 Schema Reader"
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001DG', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, DefinitionFileMissingErr, DataClassification::SystemMetadata);
+        //SendTraceTag('00001DG', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, DefinitionFileMissingErr, DataClassification::SystemMetadata);
     end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"C5 Schema Reader", 'OnCopyToDataBaseFailed', '', false, false)] 
@@ -188,7 +188,7 @@ codeunit 51863 "C5 Schema Reader"
     var
         C5MigrationDashboardMgt: Codeunit "C5 Migr. Dashboard Mgt";
     begin
-        SendTraceTag('00001IK', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, CopyToDatabaseFailedErr, DataClassification::SystemMetadata);
+        //SendTraceTag('00001IK', C5MigrationDashboardMgt.GetC5MigrationTypeTxt(), VERBOSITY::Error, CopyToDatabaseFailedErr, DataClassification::SystemMetadata);
     end;
 }
 
