@@ -3,29 +3,29 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1869 "C5 VatGroup"
+table 51869 "C5 VatGroup"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Type;Option) 
+        field(50003;Type;Option) 
         {
             Caption='Type';
             OptionMembers = Inventory, Customer, Vendor;
         }
-        field(4;Group;Code[10]) 
+        field(50004;Group;Code[10]) 
         {
             Caption='VAT group';
         }
-        field(5;Description;Text[30]) 
+        field(50005;Description;Text[30]) 
         {
             Caption='Description';
         }

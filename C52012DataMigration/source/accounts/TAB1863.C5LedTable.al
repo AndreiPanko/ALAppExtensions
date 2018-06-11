@@ -3,174 +3,174 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1863 "C5 LedTable"
+table 51863 "C5 LedTable"
 {
 
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;DEL_UserLock;Integer) 
+        field(50003;DEL_UserLock;Integer) 
         {
             Caption='Lock';
         }
-        field(4;Account;Code[10]) 
+        field(50004;Account;Code[10]) 
         {
             Caption='Account';
         }
-        field(5;AccountName;Text[40]) 
+        field(50005;AccountName;Text[40]) 
         {
             Caption='Account name';
         }
-        field(6;AccountType;Option) 
+        field(50006;AccountType;Option) 
         {
             Caption='A/c type';
             OptionMembers = "P/L a/c", "Balance a/c", Heading, "New page", Empty, "Heading total", "Counter total";
         }
-        field(7;Code;Text[10]) 
+        field(50007;Code;Text[10]) 
         {
             Caption='Code';
         }
-        field(8;DCproposal;Option) 
+        field(50008;DCproposal;Option) 
         {
             Caption='DC proposal';
             OptionMembers = " ", Debit, Credit;
         }
-        field(9;Department;Code[10]) 
+        field(50009;Department;Code[10]) 
         {
             Caption='Department';
         }
-        field(10;MandDepartment;Option) 
+        field(50010;MandDepartment;Option) 
         {
             Caption='Mandatory department';
             OptionMembers = No, Yes;
         }
-        field(11;OffsetAccount;Text[10]) 
+        field(50011;OffsetAccount;Text[10]) 
         {
             Caption='Offset a/c';
         }
-        field(12;Access;Option) 
+        field(50012;Access;Option) 
         {
             Caption='Access';
             OptionMembers = Open, Locked, System;
         }
-        field(13;TotalFromAccount;Text[10]) 
+        field(50013;TotalFromAccount;Text[10]) 
         {
             Caption='Total from';
         }
-        field(14;Vat;Code[10]) 
+        field(50014;Vat;Code[10]) 
         {
             Caption='VAT';
         }
-        field(15;BalanceCur;Decimal) 
+        field(50015;BalanceCur;Decimal) 
         {
             Caption='Balance currency';
         }
-        field(16;Currency;Code[3]) 
+        field(50016;Currency;Code[3]) 
         {
             Caption='Currency';
         }
-        field(17;CostType;Text[10]) 
+        field(50017;CostType;Text[10]) 
         {
             Caption='Cost type';
         }
-        field(18;Counterunit;Text[250]) 
+        field(50018;Counterunit;Text[250]) 
         {
             Caption='Counter total';
         }
         // We ignore this field, since we're not importing images
-        field(19;ImageFile;Text[250]) 
+        field(50019;ImageFile;Text[250]) 
         {
             Caption='Image';
         }
-        field(20;BalanceMST;Decimal) 
+        field(50020;BalanceMST;Decimal) 
         {
             Caption='Balance in LCY';
         }
-        field(21;TmpNumerals05;Decimal) 
+        field(50021;TmpNumerals05;Decimal) 
         {
             Caption='TmpNum05';
         }
-        field(22;TmpNumerals06;Decimal) 
+        field(50022;TmpNumerals06;Decimal) 
         {
             Caption='TmpNum06';
         }
-        field(23;TmpNumerals07;Decimal) 
+        field(50023;TmpNumerals07;Decimal) 
         {
             Caption='TmpNum07';
         }
-        field(24;TmpNumerals08;Decimal) 
+        field(50024;TmpNumerals08;Decimal) 
         {
             Caption='TmpNum08';
         }
-        field(25;TmpNumerals09;Decimal) 
+        field(50025;TmpNumerals09;Decimal) 
         {
             Caption='TmpNum09';
         }
-        field(26;TmpNumerals10;Decimal) 
+        field(50026;TmpNumerals10;Decimal) 
         {
             Caption='TmpNum10';
         }
-        field(27;TmpNumerals11;Decimal) 
+        field(50027;TmpNumerals11;Decimal) 
         {
             Caption='TmpNum11';
         }
-        field(28;TmpNumerals12;Decimal) 
+        field(50028;TmpNumerals12;Decimal) 
         {
             Caption='TmpNum12';
         }
-        field(29;TmpNumerals13;Decimal) 
+        field(50029;TmpNumerals13;Decimal) 
         {
             Caption='TmpNum13';
         }
-        field(30;CompanyGroupAcc;Text[10]) 
+        field(50030;CompanyGroupAcc;Text[10]) 
         {
             Caption='Corporate a/c';
         }
-        field(31;ExchAdjust;Option) 
+        field(50031;ExchAdjust;Option) 
         {
             Caption='Exch. adjustment';
             OptionMembers = No, Yes;
         }
-        field(32;Balance02;Decimal) 
+        field(50032;Balance02;Decimal) 
         {
             Caption='Balance in';
         }
-        field(33;EDIIndex;Text[10]) 
+        field(50033;EDIIndex;Text[10]) 
         {
             Caption='EDI index';
         }
-        field(34;Centre;Code[10]) 
+        field(50034;Centre;Code[10]) 
         {
             Caption='Cost centre';
         }
-        field(35;MandCentre;Option) 
+        field(50035;MandCentre;Option) 
         {
             Caption='Mandatory cost centre';
             OptionMembers = No, Yes;
         }
-        field(36;Purpose;Code[10]) 
+        field(50036;Purpose;Code[10]) 
         {
             Caption='Purpose';
         }
-        field(37;MandPurpose;Option) 
+        field(50037;MandPurpose;Option) 
         {
             Caption='Mandatory purpose';
             OptionMembers = No, Yes;
         }
-        field(38;VatBlocked;Option) 
+        field(50038;VatBlocked;Option) 
         {
             Caption='VAT locked';
             OptionMembers = No, Yes;
         }
-        field(39;OpeningAccount;Text[10]) 
+        field(50039;OpeningAccount;Text[10]) 
         {
             Caption='Opening account';
         }

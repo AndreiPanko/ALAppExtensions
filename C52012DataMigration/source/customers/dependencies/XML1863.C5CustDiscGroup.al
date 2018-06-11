@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1863 "C5 CustDiscGroup"
+xmlport 51863 "C5 CustDiscGroup"
 {
     Direction=Import;
     Format=VariableText;

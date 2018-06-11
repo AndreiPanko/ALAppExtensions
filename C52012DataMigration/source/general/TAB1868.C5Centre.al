@@ -3,24 +3,24 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1868 "C5 Centre"
+table 51868 "C5 Centre"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Centre;Code[10]) 
+        field(50003;Centre;Code[10]) 
         {
             Caption='Cost centre';
         }
-        field(4;Name;Text[30]) 
+        field(50004;Name;Text[30]) 
         {
             Caption='Name';
         }

@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1883 "C5 CustDiscGroup"
+page 51883 "C5 CustDiscGroup"
 {
     PageType = Card;
     SourceTable = "C5 CustDiscGroup";

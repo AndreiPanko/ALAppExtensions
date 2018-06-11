@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1867 "C5 Item Migrator"
+codeunit 51867 "C5 Item Migrator"
 {    
    TableNo = "C5 InvenTable";
 

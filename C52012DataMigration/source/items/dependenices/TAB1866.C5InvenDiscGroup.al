@@ -3,24 +3,24 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1866 "C5 InvenDiscGroup"
+table 51866 "C5 InvenDiscGroup"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;DiscGroup;Code[10]) 
+        field(50003;DiscGroup;Code[10]) 
         {
             Caption='Discount group';
         }
-        field(4;Comment;Text[30]) 
+        field(50004;Comment;Text[30]) 
         {
             Caption='Comment';
         }

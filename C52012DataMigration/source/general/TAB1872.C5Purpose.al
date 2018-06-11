@@ -3,24 +3,24 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1872 "C5 Purpose"
+table 51872 "C5 Purpose"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Purpose;Code[10]) 
+        field(50003;Purpose;Code[10]) 
         {
             Caption='Purpose';
         }
-        field(4;Name;Text[30]) 
+        field(50004;Name;Text[30]) 
         {
             Caption='Name';
         }

@@ -3,48 +3,48 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1888 "C5 InvenPrice"
+table 51888 "C5 InvenPrice"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;ItemNumber;Code[20]) 
+        field(50003;ItemNumber;Code[20]) 
         {
             Caption='Item number';
         }
-        field(4;Price;Decimal) 
+        field(50004;Price;Decimal) 
         {
             Caption='Price';
         }
-        field(5;PriceUnit;Decimal) 
+        field(50005;PriceUnit;Decimal) 
         {
             Caption='Unit';
         }
-        field(6;Currency;Code[3]) 
+        field(50006;Currency;Code[3]) 
         {
             Caption='Currency';
         }
-        field(7;PriceGroup;Code[10]) 
+        field(50007;PriceGroup;Code[10]) 
         {
             Caption='Price group';
         }
-        field(8;ContributionRatio;Decimal) 
+        field(50008;ContributionRatio;Decimal) 
         {
             Caption='Contrib. ratio';
         }
-        field(9;Date_;Date) 
+        field(50009;Date_;Date) 
         {
             Caption='Date';
         }
-        field(10;SalesVat;Code[10]) 
+        field(50010;SalesVat;Code[10]) 
         {
             Caption='Sales VAT';
         }

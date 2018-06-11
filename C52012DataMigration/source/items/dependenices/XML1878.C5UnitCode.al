@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1878 "C5 UnitCode"
+xmlport 51878 "C5 UnitCode"
 {
     Direction=Import;
     Format=VariableText;

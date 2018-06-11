@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1871 "C5 LedTrans Migrator"
+codeunit 51871 "C5 LedTrans Migrator"
 {
     var
         GeneralJournalBatchCode: Label 'GLACCMIGR', Locked = true;

@@ -3,36 +3,36 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1895 "C5 ExchRate"
+table 51895 "C5 ExchRate"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Currency;Code[3]) 
+        field(50003;Currency;Code[3]) 
         {
             Caption='Currency';
         }
-        field(4;ExchRate;Decimal) 
+        field(50004;ExchRate;Decimal) 
         {
             Caption='Exch. rate';
         }
-        field(5;FromDate;Date) 
+        field(50005;FromDate;Date) 
         {
             Caption='From date';
         }
-        field(6;Comment;Text[50]) 
+        field(50006;Comment;Text[50]) 
         {
             Caption='Comment';
         }
-        field(7;Triangulation;Option) 
+        field(50007;Triangulation;Option) 
         {
             Caption='Triangulation';
             OptionMembers = No, Yes;

@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1875 "C5 Payment"
+xmlport 51875 "C5 Payment"
 {
     Direction=Import;
     Format=VariableText;

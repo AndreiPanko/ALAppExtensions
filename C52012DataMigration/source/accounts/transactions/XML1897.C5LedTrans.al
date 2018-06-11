@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1897 "C5 LedTrans"
+xmlport 51897 "C5 LedTrans"
 {
     Direction=Import;
     Format=VariableText;

@@ -3,81 +3,81 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1885 "C5 InvenCustDisc"
+table 51885 "C5 InvenCustDisc"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;ItemCode;Option) 
+        field(50003;ItemCode;Option) 
         {
             Caption='Item code';
             OptionMembers = Specific, Group, All;
         }
-        field(4;AccountCode;Option) 
+        field(50004;AccountCode;Option) 
         {
             Caption='Account code';
             OptionMembers = Specific, Group, All;
         }
-        field(5;ItemRelation;Code[20]) 
+        field(50005;ItemRelation;Code[20]) 
         {
             Caption='Item relation';
         }
-        field(6;RESERVED1;Text[10]) 
+        field(50006;RESERVED1;Text[10]) 
         {
             Caption='RESERVED1';
         }
-        field(7;AccountRelation;Code[10]) 
+        field(50007;AccountRelation;Code[10]) 
         {
             Caption='A/c relation';
         }
-        field(8;RESERVED2;Text[10]) 
+        field(50008;RESERVED2;Text[10]) 
         {
             Caption='RESERVED2';
         }
-        field(9;Type;Option) 
+        field(50009;Type;Option) 
         {
             Caption='Type';
             OptionMembers = Percent, Amount, Price;
         }
-        field(10;Qty;Decimal) 
+        field(50010;Qty;Decimal) 
         {
             Caption='Qty';
         }
-        field(11;FromDate;Date) 
+        field(50011;FromDate;Date) 
         {
             Caption='From date';
         }
-        field(12;ToDate;Date) 
+        field(50012;ToDate;Date) 
         {
             Caption='To date';
         }
-        field(13;Rate_;Decimal) 
+        field(50013;Rate_;Decimal) 
         {
             Caption='Rate';
         }
-        field(14;SearchAgain;Option) 
+        field(50014;SearchAgain;Option) 
         {
             Caption='Search';
             OptionMembers = No, Yes;
         }
-        field(15;SearchSimilar;Option) 
+        field(50015;SearchSimilar;Option) 
         {
             Caption='Same';
             OptionMembers = No, Yes;
         }
-        field(16;Currency;Code[3]) 
+        field(50016;Currency;Code[3]) 
         {
             Caption='Currency';
         }
-        field(17;PriceUnit;Decimal) 
+        field(50017;PriceUnit;Decimal) 
         {
             Caption='Price unit';
         }

@@ -3,36 +3,36 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1871 "C5 ItemTrackGroup"
+table 51871 "C5 ItemTrackGroup"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Group;Code[10]) 
+        field(50003;Group;Code[10]) 
         {
             Caption='Group';
         }
-        field(4;Prefix;Text[10]) 
+        field(50004;Prefix;Text[10]) 
         {
             Caption='Prefix';
         }
-        field(5;NumberSeries;Text[20]) 
+        field(50005;NumberSeries;Text[20]) 
         {
             Caption='Voucher series';
         }
-        field(6;PostFix;Text[10]) 
+        field(50006;PostFix;Text[10]) 
         {
             Caption='Postfix';
         }
-        field(7;BOMUpdate;Option) 
+        field(50007;BOMUpdate;Option) 
         {
             Caption='Update BOM';
             OptionMembers = No, Yes;

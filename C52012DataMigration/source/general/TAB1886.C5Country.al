@@ -3,54 +3,54 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1886 "C5 Country"
+table 51886 "C5 Country"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Country;Text[30]) 
+        field(50003;Country;Text[30]) 
         {
             Caption='Country/region';
         }
-        field(4;Type;Option) 
+        field(50004;Type;Option) 
         {
             Caption='Type';
             OptionMembers = Domestic, "EU country", "EFTA country", "3. country";
         }
-        field(5;Currency;Code[3]) 
+        field(50005;Currency;Code[3]) 
         {
             Caption='Currency';
         }
-        field(6;Language_;Option) 
+        field(50006;Language_;Option) 
         {
             Caption='Language';
             OptionMembers = Default, Danish, English, German, French, Italian, Dutch, Icelandic;
         }
-        field(7;PurchVat;Code[10]) 
+        field(50007;PurchVat;Code[10]) 
         {
             Caption='Purch. VAT';
         }
-        field(8;SalesVat;Code[10]) 
+        field(50008;SalesVat;Code[10]) 
         {
             Caption='Sales VAT';
         }
-        field(9;VatCountryCode;Code[2]) 
+        field(50009;VatCountryCode;Code[2]) 
         {
             Caption='Country code';
         }
-        field(10;IntrastatCode;Code[3]) 
+        field(50010;IntrastatCode;Code[3]) 
         {
             Caption='Intrastat';
         }
-        field(11;ExtCountryName;Text[50]) 
+        field(50011;ExtCountryName;Text[50]) 
         {
             Caption='Country name';
         }

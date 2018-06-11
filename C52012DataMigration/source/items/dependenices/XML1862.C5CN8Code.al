@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1862 "C5 CN8Code"
+xmlport 51862 "C5 CN8Code"
 {
     Direction=Import;
     Format=VariableText;

@@ -3,28 +3,28 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1864 "C5 CN8Code"
+table 51864 "C5 CN8Code"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;CN8Code;Code[10]) 
+        field(50003;CN8Code;Code[10]) 
         {
             Caption='Item CN8 codes';
         }
-        field(4;Txt;Text[30]) 
+        field(50004;Txt;Text[30]) 
         {
             Caption='Text';
         }
-        field(5;SupplementaryUnits;Text[13]) 
+        field(50005;SupplementaryUnits;Text[13]) 
         {
             Caption='Supplementary unit';
         }

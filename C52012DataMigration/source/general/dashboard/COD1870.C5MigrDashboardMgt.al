@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1870 "C5 Migr. Dashboard Mgt"
+codeunit 51870 "C5 Migr. Dashboard Mgt"
 {
     var
         C5MigrationTypeTxt: Label 'C5 2012', Locked = true;

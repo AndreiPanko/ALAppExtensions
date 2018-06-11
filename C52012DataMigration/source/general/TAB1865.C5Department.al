@@ -3,28 +3,28 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1865 "C5 Department"
+table 51865 "C5 Department"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;Department;Code[10]) 
+        field(50003;Department;Code[10]) 
         {
             Caption='Department';
         }
-        field(4;Name;Text[30]) 
+        field(50004;Name;Text[30]) 
         {
             Caption='Name';
         }
-        field(5;C4Department;Integer) 
+        field(50005;C4Department;Integer) 
         {
             Caption='C4 dept.';
         }

@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1902 "C5 LedTrans List"
+page 51902 "C5 LedTrans List"
 {
     PageType = List;
     SourceTable = "C5 LedTrans";

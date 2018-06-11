@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1863 "C5 Schema Reader"
+codeunit 51863 "C5 Schema Reader"
 {
     TableNo = "C5 Schema Parameters";
   

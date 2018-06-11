@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1860 "C5 Data Migration Mgt."
+codeunit 51860 "C5 Data Migration Mgt."
 {
     var
         DataMigratorDescTxt: Label 'Import from Microsoft Dynamics C5 2012';

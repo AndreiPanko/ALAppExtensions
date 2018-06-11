@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1898 "C5 InvenBOM"
+xmlport 51898 "C5 InvenBOM"
 {
     Direction=Import;
     Format=VariableText;

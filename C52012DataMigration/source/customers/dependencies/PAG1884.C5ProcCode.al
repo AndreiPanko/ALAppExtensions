@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1884 "C5 ProcCode"
+page 51884 "C5 ProcCode"
 {
     PageType = Card;
     SourceTable = "C5 ProcCode";

@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1869 "C5 Unzip"
+codeunit 51869 "C5 Unzip"
 {
     TableNo = "Name/Value Buffer";
 

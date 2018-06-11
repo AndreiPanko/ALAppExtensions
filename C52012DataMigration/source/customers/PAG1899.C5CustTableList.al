@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1899 "C5 CustTable List"
+page 51899 "C5 CustTable List"
 {
     PageType = List;
     SourceTable = "C5 CustTable";

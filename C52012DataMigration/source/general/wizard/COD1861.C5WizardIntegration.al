@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1861 "C5 Wizard Integration"
+codeunit 51861 "C5 Wizard Integration"
 {
     var
         C5DataMigrationMgt: Codeunit "C5 Data Migration Mgt.";

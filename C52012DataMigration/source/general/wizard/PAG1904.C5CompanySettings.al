@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1904 "C5 Company Settings"
+page 51904 "C5 Company Settings"
 {
     Caption=' ';
     PageType=NavigatePage;

@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1864 "C5 VendTable Migrator"
+codeunit 51864 "C5 VendTable Migrator"
 {
     TableNo = "C5 VendTable";
 

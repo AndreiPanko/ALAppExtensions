@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1865 "C5 Helper Functions"
+codeunit 51865 "C5 Helper Functions"
 {
     var
         TypeHelper: Codeunit "Type Helper";

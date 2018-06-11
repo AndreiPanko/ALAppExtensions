@@ -3,24 +3,24 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1870 "C5 UnitCode"
+table 51870 "C5 UnitCode"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;UnitCode;Code[10]) 
+        field(50003;UnitCode;Code[10]) 
         {
             Caption='Unit';
         }
-        field(4;Txt;Text[30]) 
+        field(50004;Txt;Text[30]) 
         {
             Caption='Text';
         }

@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1868 "C5 Data Loader"
+codeunit 51868 "C5 Data Loader"
 {
     var
         HelperFunctions: Codeunit "C5 Helper Functions";

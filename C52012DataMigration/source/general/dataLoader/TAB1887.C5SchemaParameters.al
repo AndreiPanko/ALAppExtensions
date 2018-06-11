@@ -3,48 +3,48 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1887 "C5 Schema Parameters"
+table 51887 "C5 Schema Parameters"
 {
 
   fields
   {
-    field(1;Dummy;Code[10])
+    field(50001;Dummy;Code[10])
     {
       Caption='Dummy';
     }
-    field(2;"Zip File"; Text[250])
+    field(50002;"Zip File"; Text[250])
     {
       Caption='Zip File';
     }
-    field(3;"Unziped Folder"; Text[250])
+    field(50003;"Unziped Folder"; Text[250])
     {
       Caption='Unziped Folder';
     }
-    field(4;"Total Items";Integer)
+    field(50004;"Total Items";Integer)
     {
       Caption='Total Items';
     }
-    field(5;"Total Accounts";Integer)
+    field(50005;"Total Accounts";Integer)
     {
       Caption='Total Accounts';
     }
-    field(6;"Total Customers";Integer)
+    field(50006;"Total Customers";Integer)
     {
       Caption='Total Customers';
     }
-    field(7;"Total Vendors";Integer)
+    field(50007;"Total Vendors";Integer)
     {
       Caption='Total Vendors';
     }
-    field(8;"Total Historical Entries";Integer)
+    field(50008;"Total Historical Entries";Integer)
     {
       Caption='Total Historical Entries';
     }
-    field(9;"Zip File Blob";Blob)
+    field(50009;"Zip File Blob";Blob)
     {
       Caption='Zip File Blob';
     }
-    field(10;CurrentPeriod;Date)
+    field(50010;CurrentPeriod;Date)
     {
       Caption='Current Period';
     }

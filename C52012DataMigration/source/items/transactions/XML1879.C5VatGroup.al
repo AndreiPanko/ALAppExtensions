@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1879 "C5 VatGroup"
+xmlport 51879 "C5 VatGroup"
 {
     Direction=Import;
     Format=VariableText;

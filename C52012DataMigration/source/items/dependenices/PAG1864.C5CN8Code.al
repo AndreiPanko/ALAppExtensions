@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page  1864 "C5 CN8Code"
+page  51864 "C5 CN8Code"
 {
     PageType = Card;
     SourceTable = "C5 CN8Code";

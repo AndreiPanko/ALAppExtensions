@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 1898 "C5 Install"
+codeunit 51898 "C5 Install"
 {
     Subtype = install;
 

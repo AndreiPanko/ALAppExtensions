@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1863 "C5 LedTable"
+page 51863 "C5 LedTable"
 {
     PageType = Card;
     SourceTable = "C5 LedTable";

@@ -3,28 +3,28 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 1896 "C5 InvenLocation"
+table 51896 "C5 InvenLocation"
 {
     fields
     {
-        field(1;RecId;Integer) 
+        field(50001;RecId;Integer) 
         {
             Caption='Row number';
             AutoIncrement=true;
         }
-        field(2;LastChanged;Date) 
+        field(50002;LastChanged;Date) 
         {
             Caption='Last changed';
         }
-        field(3;InvenLocation;Text[10]) 
+        field(50003;InvenLocation;Text[10]) 
         {
             Caption='Location';
         }
-        field(4;Name;Text[30]) 
+        field(50004;Name;Text[30]) 
         {
             Caption='Name';
         }
-        field(5;RESERVED1;Text[10]) 
+        field(50005;RESERVED1;Text[10]) 
         {
             Caption='RESERVED1';
         }

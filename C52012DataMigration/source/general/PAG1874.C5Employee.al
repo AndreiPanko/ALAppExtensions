@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 1874 "C5 Employee"
+page 51874 "C5 Employee"
 {
     PageType = Card;
     SourceTable = "C5 Employee";

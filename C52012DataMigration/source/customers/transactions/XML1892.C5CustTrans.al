@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1892 "C5 CustTrans"
+xmlport 51892 "C5 CustTrans"
 {
     Direction=Import;
     Format=VariableText;

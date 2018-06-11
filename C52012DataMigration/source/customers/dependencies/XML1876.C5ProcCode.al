@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-xmlport 1876 "C5 ProcCode"
+xmlport 51876 "C5 ProcCode"
 {
     Direction=Import;
     Format=VariableText;
