@@ -19,5 +19,6 @@ enum 59 "Auto Format"
     /// Apply a specific format in AutoFormatExpr without additional transformation.
     /// </summary>
     value(11; CustomFormatExpr) { }
+    ///
 }
 
