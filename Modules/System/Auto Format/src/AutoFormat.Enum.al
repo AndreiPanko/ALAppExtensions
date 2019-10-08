@@ -19,5 +19,10 @@ enum 59 "Auto Format"
     /// Apply a specific format in AutoFormatExpr without additional transformation.
     /// </summary>
     value(11; CustomFormatExpr) { }
+    /// <summary>
+    /// Apply a Standard format 2 with 4 decimal digits
+    /// </summary>
+    value(42; Format42) { }
+
 }
 

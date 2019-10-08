@@ -28,6 +28,12 @@ codeunit 59 "Auto Format Impl."
                     Result := AutoFormatExpr;
                     Resolved := TRUE;
                 end;
+            EnumType::Format42:
+                begin
+                    Result := '<Precision,4:4><Standard Format,2>';
+                    Resolved := true;
+                end;
+
             else
                 AutoFormat.OnResolveAutoFormat(AutoFormatType, AutoFormatExpr, Result, Resolved);
         end;
